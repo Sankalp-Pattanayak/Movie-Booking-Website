@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+    font-family: 'Sen', sans-serif;
+
+}
+
+.logo-container{
+    flex: 1;
+}
+
+.logo{
+    font-family: 'Sen', sans-serif;
+    font-size: 30px;
+    color: lime;
+}
+
+.menu-container{
+    flex: 6;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+
+.menu-list-itms{
+    margin-right: 30px;
+}
+
+.menu-list-itms{
+    font-weight: bolder;
+}
+    
+
+.profile-container{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.profile-text-container{
+    margin: 0 20px;
+}
+
+.profile-picture{
+    width: 32px;
+    height: 28px;
+    border-radius: 30%;
+    object-fit: cover;
+}
+
+.toggle{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.toggle-icon{
+    color: goldenrod;
+}
+
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sidebar{
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+.left-menu-icon{
+    color: white;
+    margin-bottom: 30px;
+}
+.container{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+.content-container{
+    margin-left: 50px;
+}
+
+.featured-content{
+    height: 50vh;
+    padding: 30px;
+
+}
+.featured-title{
+    width: 200px;
+
+}
+
+.featured-desc{
+    color: lightgrey;
+    margin: 20px 0;
+    font-family: 'Sen', sans-serif;
+
+}
+
+.featured-button{
+    background-color: lime;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: 'Sen', sans-serif;
+    cursor: pointer;
+}
+
+.movie-list-title,.footer-title{
+    font-family: 'Sen', sans-serif;
+    color: white;
+}
+
+#image1{
+    padding: 20px;
+    transition: transform .2s;    
+    width: 200px;
+    height: 220px;
+    margin: 0 auto;
+}
+#image1:hover{
+    transform: scale(1.5);
+}
+
+#image2{
+    padding: 20px;
+    transition: transform .2s; 
+    width: 200px;
+    height: 220px;
+    margin: 0 auto;
+    
+}
+#image2:hover{
+    transform: scale(1.5);
+}
+
+#image3{
+    padding: 20px;
+    transition: transform .2s; 
+    width: 200px;
+    height: 220px;
+    margin: 0 auto;
+}
+#image3:hover{
+    transform: scale(1.5);
+}
+
+.all-images{
+    display: flex;
+    padding-inline: 50px;
+}
+
+#button1{
+    background-color: lime;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: 'Sen', sans-serif;
+    margin-top: 35px;
+    margin-left: 60px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+#button2{
+    background-color: lime;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: 'Sen', sans-serif;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.trailers{
+    display: flex;
+    margin-left: 10px;
+}
+
+#slide-image1{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+#slide-image2{
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+
+#slide-image3{
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+
+#slide-image4{
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+
+#slide-image5{
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+
+#slide-image6{
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+
+#slide-image7{
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+
+#city-select,#timings,#cinema-select{
+    color: rgb(255, 255, 255);
+    font-family: 'Sen', sans-serif;
+}
+
+#button-last{
+    text-align: center;
+    background-color: lime;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: 'Sen', sans-serif;
+    cursor: pointer;
+}
+
+#contact, #about{
+    color: white;
+    font-family: 'Sen', sans-serif;
+}
+
+#aboutus{
+    color: lime;
+    font-family: 'Sen', sans-serif;
+
+}
+
+
+
+
+
+
